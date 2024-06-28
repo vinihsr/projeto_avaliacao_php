@@ -4,7 +4,7 @@ class Database {
     private $host = "localhost";
     private $db_name = "TitanUsers";
     private $username = "root";
-    private $password = "teste";
+    private $password = "";
     public $conn;
 
     public function getConnection() {
